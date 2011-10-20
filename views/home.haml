@@ -1,0 +1,14 @@
+%form(action='/' method='POST')
+  %input(type='text' name='key' value='')
+  %input(type='text' name='value' value='')
+  %input(type='submit')
+
+.saved
+  %h2 Saved values
+  
+  %ul
+  - @values.each do |v|
+    %li
+      = v.key
+      \-
+      = v.value

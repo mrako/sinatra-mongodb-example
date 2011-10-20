@@ -1,0 +1,11 @@
+development:
+  host: localhost
+  port: 27017
+  database: dict_dev
+    
+production:
+  host: localhost
+  port: 27017
+  database: dict_prod
+    
+environment: development
