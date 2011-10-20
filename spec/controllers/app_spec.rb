@@ -1,6 +1,6 @@
 require File.dirname(__FILE__) + '/../spec_helper'
 
-require 'init'
+require "#{root_path}/../init"
 
 describe "controller" do
   include Rack::Test::Methods
