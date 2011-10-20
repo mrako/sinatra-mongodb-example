@@ -1,11 +1,11 @@
 development:
   host: localhost
   port: 27017
-  database: dict_dev
+  database: sinatra-example-dev
     
 production:
   host: localhost
   port: 27017
-  database: dict_prod
+  database: sinatra-example-production
     
 environment: development
