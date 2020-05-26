@@ -6,5 +6,5 @@ gem "haml"
 group :test, :development do
   gem "rack-test"
   gem "rspec"
-  gem "rcov"
+  gem "simplecov", require: false
 end
